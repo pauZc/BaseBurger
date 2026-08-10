@@ -12,7 +12,7 @@ export const Footer = (): JSX.Element => {
 
         <div className="flex flex-col gap-10 md:flex-row md:gap-20">
           <p className="max-w-xs font-sans text-sm leading-relaxed text-smoke">
-            Craft, fire, and bun. We're dedicated to creating the perfect burger experience, one
+            Craft, fire, and bun. We're dedicated to creating the perfect BURGER experience, one
             flame-kissed bite at a time.
           </p>
 
@@ -21,7 +21,7 @@ export const Footer = (): JSX.Element => {
 
       <div className="mx-auto flex max-w-6xl flex-col-reverse items-center justify-between gap-4 border-t border-[#2b2b2b] py-6 md:flex-row">
         <p className="font-sans text-xs text-smoke">
-          &copy; {year} Base Burguer. All rights reserved.
+          &copy; {year} Base Burger. All rights reserved.
         </p>
         <div className="flex items-center gap-5">
           <a href="#" aria-label="Instagram" className="text-smoke transition-colors hover:text-ember">

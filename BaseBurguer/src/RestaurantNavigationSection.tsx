@@ -25,7 +25,7 @@ export const RestaurantNavigationSection = (): JSX.Element => {
       <div className="flex items-center gap-10">
         <a href="#top" aria-label="Base Burguer home" className="flex items-center gap-1.5">
           <span className="font-sans text-lg font-normal tracking-[-0.45px] text-[#f4f4f0]">
-            BASE BURGUER
+            BASE BURGER
           </span>
           <span className="h-1.5 w-1.5 rounded-full bg-ember" />
         </a>

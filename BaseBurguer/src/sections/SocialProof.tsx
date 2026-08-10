@@ -23,7 +23,7 @@ export const SocialProof = (): JSX.Element => {
             <div className="aspect-[4/5] w-full overflow-hidden rounded-sm">
               <img
                 src="https://picsum.photos/seed/dining-scene/800/1000"
-                alt="Guests enjoying dinner at Base Burguer"
+                alt="Guests enjoying dinner at Base Burger"
                 className="h-full w-full object-cover grayscale"
                 loading="lazy"
               />
