@@ -10,10 +10,10 @@ export const Hero = (): JSX.Element => {
 
       <div className="relative z-10 flex flex-col items-center px-6 text-center">
         <p className="mb-6 font-sans text-xs font-medium tracking-[0.3em] text-smoke">
-          CRAFTED IN HOUSE DAILY &mdash; 100% GRASS-FED BEEF
+          Aplastamos carne. Rompemos antojos
         </p>
         <h1 className="max-w-4xl font-serif text-5xl font-medium leading-tight text-[#f4f4f0] md:text-7xl">
-          The Art of the Burger
+          Base Burger
         </h1>
         
       </div>

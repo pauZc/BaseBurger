@@ -15,7 +15,7 @@ export const SocialProof = (): JSX.Element => {
     <section id="reviews" className="w-full bg-charcoal px-6 py-24 md:px-10">
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-12 font-serif text-4xl font-medium text-[#f4f4f0] md:text-5xl">
-          SOCIAL PROOF
+          Acerca de Base Burger
         </h2>
 
         <div className="grid gap-10 md:grid-cols-2 md:items-start">
@@ -39,16 +39,9 @@ export const SocialProof = (): JSX.Element => {
           </div>
 
           <div className="flex flex-col gap-10 pt-2">
-            {testimonials.map((t) => (
-              <figure key={t.author}>
-                <blockquote className="font-serif text-xl italic leading-relaxed text-[#f4f4f0] md:text-2xl">
-                  &ldquo;{t.quote}&rdquo;
-                </blockquote>
-                <figcaption className="mt-4 font-sans text-xs font-medium tracking-[1.5px] text-smoke">
-                  &mdash; {t.author}
-                </figcaption>
-              </figure>
-            ))}
+            <p>Todo empezó con una idea sencilla: hacer una hamburguesa que realmente provocara volver por otra.</p>
+            <p>No queríamos complicarla. Queríamos hacerla bien.</p>
+            <p>Así nació este proyecto: de un sueño personal, muchas ganas de crear algo propio y la obsesión por conseguir ese momento perfecto en el que la carne toca una plancha bien caliente.</p>
           </div>
         </div>
       </div>

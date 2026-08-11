@@ -25,14 +25,8 @@ export const MenuHighlights = (): JSX.Element => {
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 flex items-end justify-between">
           <h2 className="font-serif text-4xl font-medium text-[#f4f4f0] md:text-5xl">
-            MENU HIGHLIGHTS
+            MENU
           </h2>
-          <a
-            href="#menu"
-            className="whitespace-nowrap font-sans text-xs font-medium tracking-[1.5px] text-smoke underline underline-offset-4 transition-colors hover:text-ember"
-          >
-            VIEW FULL MENU
-          </a>
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">

@@ -16,7 +16,7 @@ export const ArtisanalMarquee = (): JSX.Element => {
                   i % 2 === 0 ? "text-[#f4f4f0]" : "text-transparent [-webkit-text-stroke:1px_#3a3a3a]"
                 }`}
               >
-                ARTISANAL
+                Burger
               </span>
             ))}
           </div>
