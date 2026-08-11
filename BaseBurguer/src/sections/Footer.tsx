@@ -5,18 +5,11 @@ export const Footer = (): JSX.Element => {
     <footer className="w-full border-t border-[#2b2b2b] bg-ink px-6 pt-20 md:px-10">
       <div className="mx-auto flex max-w-6xl flex-col gap-16 pb-10 md:flex-row md:items-start md:justify-between">
         <h2 className="font-serif text-4xl font-medium leading-none text-[#2b2b2b] md:text-6xl">
-          BURGER
+          BASE
           <br />
-          ARTISANAL
+          BURGER
         </h2>
 
-        <div className="flex flex-col gap-10 md:flex-row md:gap-20">
-          <p className="max-w-xs font-sans text-sm leading-relaxed text-smoke">
-            Craft, fire, and bun. We're dedicated to creating the perfect BURGER experience, one
-            flame-kissed bite at a time.
-          </p>
-
-        </div>
       </div>
 
       <div className="mx-auto flex max-w-6xl flex-col-reverse items-center justify-between gap-4 border-t border-[#2b2b2b] py-6 md:flex-row">

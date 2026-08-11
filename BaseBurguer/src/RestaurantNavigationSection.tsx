@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 const navigationItems = [
-  { label: "MENU", href: "#menu" },
   { label: "ACERCA DE", href: "#reviews" },
   { label: "UBICACIÓN", href: "#location" },
+   { label: "MENU", href: "#menu" }
 ];
 
 export const RestaurantNavigationSection = (): JSX.Element => {
