@@ -7,7 +7,7 @@ export const FindUs = (): JSX.Element => {
         <div className="grid gap-8 md:grid-cols-2 md:items-center">
           <div className="aspect-[4/3] w-full overflow-hidden rounded-sm">
             <img
-              src="https://picsum.photos/seed/restaurant-interior/800/600"
+              src="/menu-burger.png"
               alt="Downtown Flagship dining room"
               className="h-full w-full object-cover grayscale"
               loading="lazy"

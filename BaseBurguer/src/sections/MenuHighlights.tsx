@@ -3,19 +3,19 @@ const menuItems = [
     name: "The Truffle Royale",
     description: "Wild mushrooms, truffle aioli, aged gruyère on a brioche bun.",
     price: "$24",
-    image: "https://picsum.photos/seed/truffle-royale/600/600",
+    image: "/menu-burger.png",
   },
   {
     name: "The Smoked Ember",
     description: "Charcoal-grilled patty, caramelized onions, house-made chipotle sauce.",
     price: "$22",
-    image: "https://picsum.photos/seed/smoked-ember/600/600",
+    image: "/menu-burger.png",
   },
   {
     name: "The Garden Heirloom",
     description: "Herb-roasted beet, heirloom tomato, basil pesto, brioche bun.",
     price: "$21",
-    image: "https://picsum.photos/seed/garden-heirloom/600/600",
+    image: "/menu-burger.png",
   },
 ];
 
@@ -36,7 +36,7 @@ export const MenuHighlights = (): JSX.Element => {
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="h-full w-full object-cover grayscale transition-transform duration-500 group-hover:scale-105"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />
               </div>

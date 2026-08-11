@@ -22,16 +22,8 @@ export const SocialProof = (): JSX.Element => {
           <div className="relative">
             <div className="aspect-[4/5] w-full overflow-hidden rounded-sm">
               <img
-                src="https://picsum.photos/seed/dining-scene/800/1000"
+                src="/menu-burger.png"    
                 alt="Guests enjoying dinner at Base Burger"
-                className="h-full w-full object-cover grayscale"
-                loading="lazy"
-              />
-            </div>
-            <div className="absolute -bottom-10 right-[-1.5rem] hidden h-40 w-40 overflow-hidden rounded-sm border-4 border-charcoal shadow-xl md:block">
-              <img
-                src="https://picsum.photos/seed/chef-plating/300/300"
-                alt="Chef plating a burger"
                 className="h-full w-full object-cover grayscale"
                 loading="lazy"
               />
