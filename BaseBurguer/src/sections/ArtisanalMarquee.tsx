@@ -1,6 +1,6 @@
 const REPEAT = Array.from({ length: 8 });
 
-export const ArtisanalMarquee = (): JSX.Element => {
+export const ArtisanalMarquee = () => {
   return (
     <div className="w-full overflow-hidden border-y border-[#2b2b2b] bg-charcoal py-6">
       <div

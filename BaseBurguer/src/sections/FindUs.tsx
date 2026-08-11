@@ -1,4 +1,4 @@
-export const FindUs = (): JSX.Element => {
+export const FindUs = () => {
   return (
     <section id="location" className="w-full bg-ink px-6 py-24 md:px-10">
       <div className="mx-auto flex max-w-6xl flex-col gap-16">

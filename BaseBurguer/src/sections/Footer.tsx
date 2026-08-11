@@ -1,4 +1,4 @@
-export const Footer = (): JSX.Element => {
+export const Footer = () => {
   const year = new Date().getFullYear();
 
   return (

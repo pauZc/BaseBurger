@@ -6,18 +6,8 @@ const navigationItems = [
    { label: "MENU", href: "#menu" }
 ];
 
-export const RestaurantNavigationSection = (): JSX.Element => {
+export const RestaurantNavigationSection = () => {
   const [activeItem, setActiveItem] = useState("OUR STORY");
-
-  const handleOrderNow = (): void => {
-    const orderSection = document.getElementById("order");
-    if (orderSection) {
-      orderSection.scrollIntoView({ behavior: "smooth", block: "start" });
-      return;
-    }
-
-    window.location.hash = "order";
-  };
 
   return (
     <header className="fixed top-0 left-0 z-50 flex w-full items-center justify-between px-6 py-4 md:px-10 bg-[#121212cc] border-b border-[#2b2b2b] backdrop-blur-[6px]">

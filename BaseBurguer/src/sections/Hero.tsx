@@ -1,4 +1,4 @@
-export const Hero = (): JSX.Element => {
+export const Hero = () => {
   return (
     <section id="top" className="relative flex h-[90vh] min-h-[640px] w-full items-center justify-center overflow-hidden bg-ink">
       <video

@@ -19,7 +19,7 @@ const menuItems = [
   },
 ];
 
-export const MenuHighlights = (): JSX.Element => {
+export const MenuHighlights = () => {
   return (
     <section id="menu" className="w-full bg-ink px-6 py-24 md:px-10">
       <div className="mx-auto max-w-6xl">

@@ -1,16 +1,4 @@
-const testimonials = [
-  {
-    quote:
-      "Hands down the best burger I've ever had. The attention to detail in every bite is remarkable.",
-    author: "SARAH M.",
-  },
-  {
-    quote: "A true culinary experience. The truffle royale changed my life.",
-    author: "JAMES L.",
-  },
-];
-
-export const SocialProof = (): JSX.Element => {
+export const SocialProof = () => {
   return (
     <section id="reviews" className="w-full bg-charcoal px-6 py-24 md:px-10">
       <div className="mx-auto max-w-6xl">
