@@ -90,15 +90,11 @@
 }
 
 @keyframes shimmer {
-  0%,
-  90%,
-  to {
-    background-position: calc(-100% - var(--shimmer-width)) 0;
-  }
-
-  30%,
-  60% {
+  0% {
     background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+  100% {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
   }
 }
 
@@ -117,5 +113,53 @@
   }
   to {
     transform: translateY(calc(-100% - var(--gap, 2rem)));
+  }
+}
+
+.animate-fall {
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: var(--max-opacity, 0.6);
+  }
+  90% {
+    opacity: var(--max-opacity, 0.6);
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-build-layer {
+  animation: build-layer 7s var(--animation-delay, 0s) infinite;
+}
+
+@keyframes build-layer {
+  0% {
+    transform: translateY(-36px) scale(0.85);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(4px) scale(1.04);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  14% {
+    transform: translateY(0) scale(1);
+  }
+  86% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10px) scale(0.9);
+    opacity: 0;
   }
 }

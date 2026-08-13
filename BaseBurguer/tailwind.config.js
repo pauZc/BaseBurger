@@ -10,7 +10,7 @@ module.exports = {
         smoke: "#9b9b9b",
       },
       fontFamily: {
-        serif: ["'Playfair Display'", "Georgia", "serif"],
+        serif: ["'Fraunces'", "Georgia", "serif"],
         sans: ["Inter", "system-ui", "sans-serif"],
       },
       letterSpacing: {

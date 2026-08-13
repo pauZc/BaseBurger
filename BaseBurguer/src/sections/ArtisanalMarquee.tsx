@@ -16,7 +16,7 @@ export const ArtisanalMarquee = () => {
                   i % 2 === 0 ? "text-[#f4f4f0]" : "text-transparent [-webkit-text-stroke:1px_#3a3a3a]"
                 }`}
               >
-                Burger
+                El sabor que tu cuerpo pide
               </span>
             ))}
           </div>
