@@ -163,3 +163,24 @@
     opacity: 0;
   }
 }
+
+.animate-smoke {
+  animation: smoke-rise ease-out infinite;
+}
+
+@keyframes smoke-rise {
+  0% {
+    transform: translate(0, 0) scale(0.6);
+    opacity: 0;
+  }
+  25% {
+    opacity: var(--max-opacity, 0.2);
+  }
+  70% {
+    opacity: var(--max-opacity, 0.2);
+  }
+  100% {
+    transform: translate(var(--drift, 20px), -260px) scale(1.7);
+    opacity: 0;
+  }
+}

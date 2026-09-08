@@ -9,10 +9,51 @@ const LAYER_DELAYS = {
   topBun: "2.5s",
 } as const;
 
+type SmokePuff = {
+  left: string;
+  size: number;
+  duration: number;
+  delay: number;
+  drift: number;
+  maxOpacity: number;
+};
+
+const SMOKE_PUFFS: SmokePuff[] = [
+  { left: "4%", size: 90, duration: 11, delay: 0, drift: 30, maxOpacity: 0.22 },
+  { left: "14%", size: 60, duration: 9, delay: 3, drift: -20, maxOpacity: 0.16 },
+  { left: "24%", size: 110, duration: 13, delay: 6, drift: 40, maxOpacity: 0.2 },
+  { left: "36%", size: 70, duration: 10, delay: 1.5, drift: -25, maxOpacity: 0.18 },
+  { left: "48%", size: 95, duration: 12, delay: 4.5, drift: 20, maxOpacity: 0.22 },
+  { left: "60%", size: 65, duration: 9.5, delay: 8, drift: -30, maxOpacity: 0.16 },
+  { left: "71%", size: 105, duration: 14, delay: 2, drift: 35, maxOpacity: 0.2 },
+  { left: "82%", size: 75, duration: 10.5, delay: 5.5, drift: -20, maxOpacity: 0.18 },
+  { left: "92%", size: 85, duration: 11.5, delay: 7, drift: 25, maxOpacity: 0.2 },
+];
+
 export const SocialProof = () => {
   return (
-    <section id="reviews" className="w-full bg-charcoal px-6 py-24 md:px-10">
-      <div className="mx-auto max-w-6xl">
+    <section id="reviews" className="relative w-full overflow-hidden bg-[#671f14] px-6 py-24 md:px-10">
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+        {SMOKE_PUFFS.map((puff, i) => (
+          <span
+            key={i}
+            className="absolute bottom-0 animate-smoke rounded-full bg-white blur-2xl"
+            style={
+              {
+                left: puff.left,
+                width: `${puff.size}px`,
+                height: `${puff.size}px`,
+                animationDuration: `${puff.duration}s`,
+                animationDelay: `${puff.delay}s`,
+                "--drift": `${puff.drift}px`,
+                "--max-opacity": puff.maxOpacity,
+              } as CSSProperties
+            }
+          />
+        ))}
+      </div>
+
+      <div className="relative z-10 mx-auto max-w-6xl">
         <h2 className="mb-12 font-serif text-4xl font-medium text-[#f4f4f0] md:text-5xl">
           Acerca de Base Burger
         </h2>
