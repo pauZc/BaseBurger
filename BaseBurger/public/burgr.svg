@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="none">
+  <!-- Top Bun -->
+  <path d="M4 11C4 7.13 7.13 4 11 4H13C16.87 4 20 7.13 20 11H4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Lettuce / Middle Layer -->
+  <path d="M3 14C4.5 14 5.25 13 6.75 13C8.25 13 9 14 10.5 14C12 14 12.75 13 14.25 13C15.75 13 16.5 14 18 14C19.5 14 20.25 13 21 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bottom Bun -->
+  <path d="M5 17H19C19 19.21 17.21 21 15 21H9C6.79 21 5 19.21 5 17Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
